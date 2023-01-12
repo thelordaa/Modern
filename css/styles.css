@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'merriweather', serif;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #0A2647;
+    font-weight: normal;
+    line-height: 1;
+
+}
+
+h2 {
+    font-family: 'Montsrrat', sans-serif;
+    font-size: 2.5rem;
+    color: #0A2647;
+    padding-bottom: 10px;
+}
+h3 {
+    font-family: 'Montsrrat' sans-serif;
+    color: #0A2647;
+}
+
+hr{
+    border-style: dotted none none none;
+    border-color: lightslategray;
+    border-width: 5px;
+    height: 0px;
+    width: 5%;
+    margin: 70px auto 70px auto;
+}
+
+p {
+    line-height: 2;
+}
+
+/*******************Class********************/
+
+.top-container {
+   /* background-color: #EAF6F6; */
+   background-color: #48b4e0;
+    position: relative;
+    padding-top: 110px;
+    
+}
+
+.mountain {
+    margin: auto auto -4px 200px;
+}
+
+.b-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+    width: 350px;
+    height: 200px;
+}
+
+.t-cloud {
+    position: absolute;
+    top: 50px;
+    right: 300px;
+    width: 350px;
+    height: 200px;
+}
+
+.middle-container {
+margin: 100px 0 100px 0;
+}
+
+.bio {
+    margin-bottom: 50px;
+}
+
+.bottom-container {
+background-color: #48b4e0;
+padding: 60px 0 10px;
+margin: 10px 0 0 0;
+
+}
+.copyR {
+    color: #EAF6F6;
+    padding-top: 20px;
+}
+
+.footer-link {
+    color: #0A2647;
+    padding: 30px;
+    font-family: 'Montsrrat', sans-serif;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: white;
+}
+
+.skill-row {
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+}
+
+.repair {
+    width: 25%;
+    float: left;
+    margin: auto 30px auto auto;
+}
+
+.gamedev {
+    width: 25%;
+    float: right;
+    margin: auto auto auto 30px;
+}
+
+.contact-me {
+    width: 40%;
+    margin: 10px auto 40px auto;
+}
+
+.Contact-P {
+    margin-bottom: 30px;
+}
+
+.btn {
+    background: #0A2647;
+    background-image: -webkit-linear-gradient(top, #0A2647, #205295);
+    background-image: -moz-linear-gradient(top, #0A2647, #205295);
+    background-image: -ms-linear-gradient(top, #0A2647, #205295);
+    background-image: -o-linear-gradient(top, #0A2647, #205295);
+    background-image: linear-gradient(to bottom, #0A2647, #205295);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montsrrat' sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
